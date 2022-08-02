@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: poppins;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#hero {
+  width: 100%;
+  height: 85vh;
+  background: rgba(0, 0, 0, .65) url('https://assets.codepen.io/6060109/agency-hero-image.png');
+  background-size: cover;
+  position: relative;
+}
+
+nav > a {
+  display: inline-block;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#hero > h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  color: white;
+}
+
+#services {
+  margin-top: 50px;
+  width: 100vw;
+  color: #133588;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.services-block p {
+  color: #806c6c;
+  margin: 0 0 50px 0;
+}
+
+#footer {
+  height: 300px;
+  background-color: #153488;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer h1, #footer input {
+  width: 380px;
+  margin: 0 auto;
+}
+
+#footer h1 {
+  margin-top: 50px;
+}
+
+#footer input[type='text'] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 30px auto;
+  padding: 5px 0;
+}
+
+#footer input[type='text']::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+#footer input[type='submit'] {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  color: #806c6c;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 950px) {
+  #services {
+  }
+  .services-container {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .services-block p{
+    margin: 0 0 25px 0;
+    text-align: center;
+  }
+}
