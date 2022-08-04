@@ -45,19 +45,6 @@ export default function LeftContainer(props) {
       content = '';
   };
 
-/* 
-   to do this better, use a switching statement to set a content variable and then return content
-   this allows you to update your app more dynamically and handle individual inputs
-   the current iteration of this app carries the input value from email to details, which is an issue
-   
-   to handle the data:
-    set a state variable for each input
-    collect input value with onChange={e => updateValue(e.target.value)} (pass update value as prop)
-    and it is stored in your state variable
-
-  this can either be output or sent to a server with post
-*/
-
   return (
       content
   );
