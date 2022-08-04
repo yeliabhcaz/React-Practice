@@ -13,7 +13,7 @@ export default function LeftContainer(props) {
       <div className='right-ctr-top'>
       <h1>Apply to work with our agency</h1>
       <input 
-      type='text' 
+      type='email' 
       placeholder="What's your email?"
       onChange={e => setEmail(e.target.value)} />
       </div> )
