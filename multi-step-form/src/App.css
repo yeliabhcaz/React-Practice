@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  width: 100vw;
+}
+
+.right-ctr {
+  width: 50%;
+}
+
+.left-combined {
+  background-color: #745E5E;
+  height: 100vh;
+  width: 50%;
+}
+
+.left-ctr-top, .left-ctr-bottom {
+  min-height: 50%;
+}
+
+h1 {
+  color: white;
+  width: 70%;
+  margin: auto;
+  padding-top: 350px;
+  text-align: left;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 70%;
+  margin: 50px 0;
+  padding-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 70%;
+  font-size: 16px;
+}
+
+.left-ctr-bottom {
+  display: flex;
+}
+
+button {
+    height: 35px;
+    width: 70px;
+    color: #745E5E;
+    margin-left: 15%;
+}
+
+.button-stage-1 {
+  margin: 50px 5px;
+  width: 90px;
+  background: none;
+  border: 1px solid rgba(255,255,255, 0.5);
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: #745E5E;
+}
+
+.button-ctr {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+
+.active-button {
+  color: #745E5E;
+  background: white;
+}
